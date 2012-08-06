@@ -11,10 +11,7 @@ $plugin = array(
     'required context' => new ctools_context_required(t('Wizard Info'), 'wizard_info'),
 );
 
-/**
- * @todo Please document this function.
- * @see http://drupal.org/node/1354
- */
+
 function wizardsteps_wizard_steps_content_type_render($subtype, $conf, $args, $context) {
   global $wizardsteps_wizard_info;
 
@@ -50,10 +47,6 @@ function wizardsteps_wizard_steps_content_type_render($subtype, $conf, $args, $c
   return $content;
 }
 
-/**
- * @todo Please document this function.
- * @see http://drupal.org/node/1354
- */
 function wizardsteps_wizard_steps_content_type_edit_form($form, &$form_state) {
   return $form;
 }
