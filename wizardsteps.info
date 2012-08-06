@@ -1,0 +1,4 @@
+name=CTools Advanced Wizard Form Steps
+core=7.x
+dependencies[] = ctools
+dependencies[] = panels
