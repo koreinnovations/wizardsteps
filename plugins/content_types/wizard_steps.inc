@@ -47,6 +47,6 @@ function wizardsteps_wizard_steps_content_type_render($subtype, $conf, $args, $c
   return $content;
 }
 
-function wizardsteps_wizard_steps_content_type_edit_form($form, &$form_state) {
+function wizardsteps_wizard_steps_content_type_edit_form(&$form, &$form_state) {
   return $form;
 }
